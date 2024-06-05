@@ -8,7 +8,7 @@ const Main = ({ activeNote, onUpdateNote }) => {
     onUpdateNote({
       ...activeNote,
       [key]: value,
-      moddate: Date.now(),
+      modDate: Date.now(),
     })
   );
 
